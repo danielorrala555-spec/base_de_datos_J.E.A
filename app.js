@@ -12,14 +12,14 @@ const personas = [
     { id: 2, area: "Estadística", nombre: "Daniel wilson Orrala Tigrero" },
     { id: 3, area: "Estadística", nombre: "Alisson Belen Salgado Perugachi" },
     { id: 4, area: "Estadística", nombre: "Darwin Jeferson Bernal Guasgua" },
+    { id: 17, area: "Estadística", nombre: "Maria Jared Velastegui Freire" },
 
     // FARMACIA
-    { id: 5, area: "Farmacia", nombre: "Bran Ariel Farinango Zambrano" },
     { id: 6, area: "Farmacia", nombre: "Britney Yadira Diaz Llerena" },
-    { id: 7, area: "Farmacia", nombre: "Estefany Dayana Pineda Chimaru" },
-    { id: 8, area: "Farmacia", nombre: "Jhony Israel Chaves Concha" },
 
     // PREPARACIÓN
+    { id: 30, area: "Preparación", nombre: "Amanda Sanches Janeth Johanna" },
+    { id: 15, area: "Preparación", nombre: "Angie Adriana Taco García" },
     { id: 9, area: "Preparación", nombre: "Ingrit Priscila Tipanluisa Salazar" },
     { id: 10, area: "Preparación", nombre: "Evelin Fernanda Herrera Almeida" },
     { id: 11, area: "Preparación", nombre: "Kevin Andrés Obando Cárdenas" },
@@ -30,25 +30,33 @@ const personas = [
     { id: 14, area: "Odontología", nombre: "Melany Anahí González Imbaquingo" },
 
     // VACUNAS
-    { id: 15, area: "Vacunas", nombre: "Angie Adriana Taco García" },
+    { id: 7, area: "Vacunas", nombre: "Estefany Dayana Pineda Chimaru" },
+    { id: 5, area: "Vacunas", nombre: "Bran Ariel Farinango Zambrano" },
     { id: 16, area: "Vacunas", nombre: "Miriam Estefania Cevallos Barre" },
-    { id: 17, area: "Vacunas", nombre: "Maria Jared Velastegui Freire" },
-    { id: 18, area: "Vacunas", nombre: "Stalyn Rodolfo Quinchiguango Yanez" },
-    { id: 19, area: "Vacunas", nombre: "Mateo Alexander Escobar Caiza" },
-    { id: 20, area: "Vacunas", nombre: "Estefanía Dayana Cuastumal Josa" },
-    { id: 21, area: "Vacunas", nombre: "José Daniel Zambrano Servonet" },
     { id: 22, area: "Vacunas", nombre: "Heidy Mariela Quinchiguango Quishpe" },
     { id: 23, area: "Vacunas", nombre: "Anahí Nicol Tutillo Paisano" },
     { id: 24, area: "Vacunas", nombre: "Tanya Lucia Cevallos Barre" },
-    { id: 25, area: "Vacunas", nombre: "Gloria Nayely Noquez Vasquez" },
+    { id: 28, area: "Vacunas", nombre: "Evelin Jhoanna Caicedo Quishpe" },
+    { id: 29, area: "Vacunas", nombre: "Katerine Millediy Diaz Zantana" },
 
     // ARCHIVOS
+    { id: 4, area: "Archivos", nombre: "Darwin Jeferson Bernal Guasgua" },
     { id: 26, area: "Archivos", nombre: "Juan Sebastian Majin Pillajo" },
     { id: 27, area: "Archivos", nombre: "Brithany Naomi Aguirre Irua" },
-    { id: 28, area: "Archivos", nombre: "Evelin Jhoanna Caicedo Quishpe" },
-    { id: 29, area: "Archivos", nombre: "Katerine Millediy Diaz Zantana" },
-    { id: 30, area: "Archivos", nombre: "Amanda Sanches Janeth Johanna" },
-    { id: 31, area: "Archivos", nombre: "Saida Marianela Ferrín Muendez" }
+    { id: 31, area: "Archivos", nombre: "Saida Marianela Ferrín Muendez" },
+    { id: 25, area: "Archivos", nombre: "Gloria Nayely Noquez Vasquez" },
+    { id: 32, area: "Archivos", nombre: "Melany Andrea Santi Tapia" },
+
+    // MATRICES
+    { id: 18, area: "Matrices", nombre: "Stalyn Rodolfo Quinchiguango Yanez" },
+    { id: 8, area: "Matrices", nombre: "Jhony Israel Chaves Concha" },
+
+    // ENCUESTAS
+    { id: 20, area: "Encuestas", nombre: "Estefanía Dayana Cuastumal Josa" },
+    { id: 21, area: "Encuestas", nombre: "José Daniel Zambrano Servonet" },
+    { id: 19, area: "Encuestas", nombre: "Mateo Alexander Escobar Caiza" },
+
+
 
 ];
 const $ = id => document.getElementById(id);
