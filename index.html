@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro de asistencia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Registro de asistencia</h1>
+        <p>Completa tus datos y adjunta las dos fotografías del día trabajado.</p>
+        <form id="form">
+            <label>Área
+                <select id="area" required>
+                    <option value="">Selecciona un área</option>
+                </select>
+            </label>
+        <label>
+    Nombre completo
+    <select id="persona" required disabled>
+        <option value="">Primero selecciona un área</option>
+    </select>
+        </label>
+    <div class="two">
+        <label>Entrada<input id="entrada" type="time" required>
+        </label>
+        <label>Salida<input id="salida" type="time" required>
+        </label></div>
+        <label>Fecha trabajada<input id="fecha" type="date" required>
+        </label>
+        <label>Fotografía de entrada<input id="fotoEntrada" type="file" accept="image/jpeg,image/png,image/webp" required>
+        </label>
+        <label>Fotografía de salida<input id="fotoSalida" type="file" accept="image/jpeg,image/png,image/webp" required>
+        </label>
+        <button type="submit">Enviar registro</button>
+        <p id="mensaje" role="status"></p>
+</form>
+<p class="nota">Versión de prueba: todavía no envía datos a Supabase.</p>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+</body>
+</html>
