@@ -60,6 +60,17 @@ const personas = [
 
 ];
 const $ = id => document.getElementById(id);
+
+function calcularMinutosTrabajados(entrada, salida) {
+    const [horaEntrada, minutoEntrada] = entrada.split(":").map(Number);
+    const [horaSalida, minutoSalida] = salida.split(":").map(Number);
+
+    const inicio = horaEntrada * 60 + minutoEntrada;
+    const fin = horaSalida * 60 + minutoSalida;
+
+    return fin - inicio;
+}
+
 const fechaLocal = () => {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
