@@ -114,13 +114,13 @@ button {
 }
 
 .nota {
-    color: #64748b;
+    color: #ed106c;
     font-size: .85rem
 }
 
 #mensaje {
     margin: 0;
-    color: #175a36
+    color: #1ece70
 }
 
 @media(max-width:400px) {
