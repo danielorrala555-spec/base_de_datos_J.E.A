@@ -37,7 +37,7 @@ const personas = [
     { id: 23, area: "Vacunas", nombre: "Anahí Nicol Tutillo Paisano" },
     { id: 24, area: "Vacunas", nombre: "Tanya Lucia Cevallos Barre" },
     { id: 28, area: "Vacunas", nombre: "Evelin Jhoanna Caicedo Quishpe" },
-    { id: 29, area: "Vacunas", nombre: "Katerine Millediy Diaz Zantana" },
+    { id: 29, area: "Vacunas", nombre: "Katerine Milleidy Diaz santana" },
 
     // ARCHIVOS
     { id: 4, area: "Archivos", nombre: "Darwin Jeferson Bernal Guasgua" },
