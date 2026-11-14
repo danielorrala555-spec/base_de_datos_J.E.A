@@ -136,6 +136,11 @@ if (errorSalida) {
   return;
 }
 
+const minutosTrabajados = calcularMinutosTrabajados(
+  $("entrada").value,
+  $("salida").value
+);
+
 const { error: errorRegistro } = await supabaseClient
   .from("asistensias")
   .insert({
@@ -144,6 +149,7 @@ const { error: errorRegistro } = await supabaseClient
     fecha: $("fecha").value,
     hora_entrada: $("entrada").value,
     hora_salida: $("salida").value,
+    minutos_trabajados: minutosTrabajados,
     foto_entrada: rutaEntrada,
     foto_salida: rutaSalida
   });
